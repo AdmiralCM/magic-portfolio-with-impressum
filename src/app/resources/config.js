@@ -4,7 +4,7 @@ const baseURL = "https://marcelkuhn.dev";
 
 
 const routes = {
-  "/": false,
+  "/": true,
   "/about": true,
   "/work": false,
   "/blog": false,
