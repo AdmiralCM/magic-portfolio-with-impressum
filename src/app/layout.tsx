@@ -9,6 +9,20 @@ import { baseURL, effects, style, font, home } from "@/app/resources";
 import { Background, Column, Flex, ThemeProvider, ToastProvider } from "@/once-ui/components";
 import { opacity, SpacingToken } from "@/once-ui/types";
 import { Meta } from "@/once-ui/modules";
+import { Raleway } from 'next/font/google';
+import { Sora } from 'next/font/google';
+
+const primary = Raleway({
+    variable: '--font-primary',
+    subsets: ['latin'],
+    display: 'swap'
+});
+
+const secondary = Sora({
+    variable: '--font-secondary',
+    subsets: ['latin'],
+    display: 'swap'
+});
 
 export async function generateMetadata() {
   return Meta.generate({

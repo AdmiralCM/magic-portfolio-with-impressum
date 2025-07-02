@@ -95,7 +95,7 @@ const about = {
       {
         company: "Eviden Germany GmbH",
         timeframe: "2025 - current",
-        role: "Junior Java Developer",
+        role: "Junior Application Developer",
         achievements: [],
         images: [],
       },
