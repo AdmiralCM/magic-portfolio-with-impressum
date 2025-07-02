@@ -50,7 +50,7 @@ const style = {
   solidStyle: "flat",
   surface: "translucent",
   transition: "all",
-  scaling: 100,
+  scaling: "100",
 }
 
 const effects = {
